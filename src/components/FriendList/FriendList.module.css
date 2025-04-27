@@ -25,10 +25,12 @@
 
 .online {
   background-color: #4caf50;
+  color: #4caf50;
 }
 
 .offline {
   background-color: #f44336;
+  color: #f44336;
 }
 
 .avatar {
@@ -39,5 +41,11 @@
 .name {
   font-size: 16px;
   font-weight: 500;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.statusText {
+  font-size: 14px;
   margin: 0;
 }
