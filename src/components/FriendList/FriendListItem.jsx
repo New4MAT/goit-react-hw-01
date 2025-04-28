@@ -11,9 +11,6 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
         width="64"
       />
       <div className={styles.statusContainer}>
-        <span
-          className={`${styles.statusDot} ${isOnline ? styles.online : styles.offline}`}
-        ></span>
         <span className={styles.statusText}>
           {isOnline ? 'Online' : 'Offline'}
         </span>
