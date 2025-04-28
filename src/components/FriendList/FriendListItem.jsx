@@ -10,12 +10,12 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
         alt="User avatar"
         width="64"
       />
-      <div className={styles.statusContainer}>
-        <span className={styles.statusText}>
-          {isOnline ? 'Online' : 'Offline'}
-        </span>
-      </div>
       <p className={styles.name}>{name}</p>
+      <span
+        className={`${styles.statusText} ${isOnline ? styles.online : styles.offline}`}
+      >
+        {isOnline ? 'Online' : 'Offline'}
+      </span>
     </li>
   );
 };

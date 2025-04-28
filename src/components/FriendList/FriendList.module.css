@@ -34,24 +34,18 @@
   object-fit: cover;
 }
 
-.statusContainer {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 8px;
+.statusText {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
 }
 
 .online {
-  background-color: green;
+  color: green;
 }
 
 .offline {
-  background-color: red;
-}
-
-.statusText {
-  font-size: 14px;
-  color: #666;
+  color: red;
 }
 
 .name {
